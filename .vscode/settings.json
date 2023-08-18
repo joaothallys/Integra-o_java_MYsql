@@ -1,0 +1,26 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "conexao",
+            "database": "locadoradvd",
+            "username": "root",
+            "password": "admin"
+        }
+    ],
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Users\\João\\Documents\\mysql-connector-j-8.0.33.jar"
+        ],
+        "exclude": [
+            "c:\\Users\\João\\Documents\\mysql-connector-java-5.1.39-bin.jar"
+        ]
+    }
+}
